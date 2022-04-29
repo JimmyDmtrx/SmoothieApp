@@ -1,0 +1,63 @@
+#result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#fruits {
+  text-align: center;
+}
+
+.fruit {
+  text-align: center;
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.fruit img {
+  width: 70px;
+  border-radius: 30%;
+  box-shadow: 10px 10px 0px rgba(249, 203, 45, 0.7);
+  margin-bottom: 30px;
+}
+
+.level {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.level img {
+  vertical-align: middle;
+  width: 50px;
+  display: inline-block;
+}
+
+#smoothie-mix {
+  position: relative;
+  text-align: center;
+}
+
+#gobelet {
+  top: 0;
+  height: 300px;
+}
+
+#juice-container {
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 140px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  background: white;
+}
+
+#juice {
+  content: '';
+  position: absolute;
+  background: white;
+  width: 100%;
+  bottom: 0;
+  height: 0px;
+  transition: height 2s, background-color 2s;
+}

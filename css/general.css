@@ -1,0 +1,8 @@
+body {
+  background-color: #fffffd;
+}
+
+@font-face {
+  font-family: "SuperFruit";
+  src: url("fonts/superfruit.ttf") format('truetype');
+}

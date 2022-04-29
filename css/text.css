@@ -1,0 +1,53 @@
+#acidity-level h3 {
+  color: #FA6CA6;
+}
+
+#vitamin-level h3 {
+  color: #41a130;
+}
+
+#sugar-level h3 {
+  color: #f1a54f;
+}
+
+#volume-level h3 {
+  color: #649FF5;
+}
+
+h1 {
+  text-align: center;
+  font-family: "SuperFruit";
+  font-size: 40px;
+  color: #FB3636;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "SuperFruit";
+  font-size: 30px;
+  color: #EAC738;
+}
+
+h3 {
+  margin: 0px;
+  text-align: center;
+  font-family: "SuperFruit";
+  font-size: 30px;
+  color: #EAC738;
+}
+
+.properties {
+  text-align: center;
+  font-size: 35px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "SuperFruit";
+  font-size: 50px;
+  color: #BBBCB6;
+}
